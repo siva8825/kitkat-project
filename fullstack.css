@@ -1,0 +1,103 @@
+*{
+    padding: 0px;
+    border: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    /* letter-spacing: 1px; */
+   
+}
+
+.dive{
+    margin: 0%;
+    line-height: 45px;
+}
+
+.college{
+    margin: 0%;
+    line-height: 35px;
+}
+
+.enquiry{
+    background-color:rgba(30, 30, 247, 0.801);
+    color: white;
+    border-radius: 7px; 
+    width: 170px;
+    height: 45px;
+    padding: 10px;
+    box-shadow: 4px 4px 4px 4px black;
+}
+
+
+.bigbox{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+
+.line{
+    display: grid;
+    grid-template-columns: repeat(2,0.0fr);
+    column-gap: 20px;
+}
+
+.courses{
+    display: grid;
+    grid-template-columns: repeat(3,0.0fr);
+ gap: 15px;
+ align-items: center;
+
+}
+
+.duration{
+    display: grid;
+    grid-template-columns: repeat(3,0.0fr);
+    gap: 15px;
+    align-items: center;
+  
+}
+
+.details{
+    display: grid;
+grid-template-columns: repeat(2,0.0fr);
+column-gap: 40px;
+
+}
+
+.details2{
+    display: grid;
+grid-template-columns: repeat(2,0.0fr);
+column-gap: 30px;
+
+}
+
+.details p{
+font-size: small;
+}
+.details2 p{
+    font-size: small;
+    }
+/* 
+
+   .program{
+    display: grid;
+  grid-template-columns: repeat(2,0.0fr);    
+  column-gap: 90PX;
+} */
+
+.timing{
+    display: grid;
+    grid-template-columns: repeat(2,0.0fr);
+    column-gap: 30px;
+    align-items: center;
+}
+
+@media (max-width:500px) {
+
+    .bigbox{
+       
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+
+
+
+}
