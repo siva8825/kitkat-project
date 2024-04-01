@@ -98,6 +98,22 @@ font-size: small;
         grid-template-columns: repeat(1,1fr);
     }
 
+    .skew2{
+          width: 300px;
+           
+        }
+
+}
+
+.contact{
+    background-color:rgba(105, 105, 236, 0.991);
+    color: white;
+     width: 170px;
+     height: 45px;
+}
 
 
+.skew2{
+transform: skewx(-20deg);
+border-radius: 30px;
 }
