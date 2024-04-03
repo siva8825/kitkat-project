@@ -95,11 +95,17 @@ font-size: small;
     .bigbox{
        
         display: grid;
-        grid-template-columns: repeat(1,1fr);
+        grid-template-columns: repeat(1,0.0fr);
+        row-gap: 10px;
+
     }
 
+.bigbox button{
+    display: none
+}
+
     .skew2{
-          width: 300px;
+   display: none;
            
         }
 
@@ -117,3 +123,87 @@ font-size: small;
 transform: skewx(-20deg);
 border-radius: 30px;
 }
+
+
+.down{
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.fa-check{
+    font-size: 15px;
+    color: blue;
+    font-weight: 100;
+    padding: 5px;
+}
+
+.beginner{
+    background-color:rgba(15, 15, 179, 0.95) ;
+    color: white;
+}
+
+
+.begin{
+    display: flex;
+    align-items: center;
+
+}
+
+.begin1{
+    display: flex;
+    align-items: center;
+    text-decoration: line-through;
+}
+
+.bigbegin{
+    display: flex;
+     
+}
+
+
+.batch{
+    text-decoration: underline;
+}
+
+.us1{
+    border: 3px solid rgba(15, 15, 179, 0.95) ;
+    background-color: transparent;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 10px;
+}
+
+.us1:hover{
+    background-color: rgba(15, 15, 179, 0.95)  ;
+    color: white;
+    cursor: pointer;
+}
+
+.pursuing{
+
+}
+
+.stack{
+    line-height: 29px;
+}
+
+.serveline1{
+    width: 4px;
+    height: 150px;
+    background-color:rgba(15, 15, 179, 0.95) ;
+}
+
+.serveline{
+display: flex;
+
+}
+
+.start{
+    background-color:rgba(15, 15, 179, 0.95) ;
+    color: white;
+    border-radius: 8px;
+}
+
